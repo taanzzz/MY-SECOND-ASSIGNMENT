@@ -5,9 +5,19 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+.acontainer{
+  display: flex;
+  justify-content: space-between;
+  gap: 186px;
+  margin-top: 20px;
+  align-items: center;
+
+}
 .log{
   display: flex;
   align-items: center;
+
   margin-left: 141px;
   margin-top: 20px;
 }
@@ -16,7 +26,49 @@
   font-weight: bold;
   color: #111111FF;
 }
-.a{
-  text-decoration: none;
+.menu{
+  display: flex;
   
+}
+.list{
+  text-decoration: none;
+  margin-right: 32px;
+}
+.menubar{
+  list-style: none;
+}
+.Ab{
+  color: #01ACFDFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+.F{
+  color: #05D4DFFF;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Ad{
+  color: #5D58EFFF;
+  font-size: 20px;
+  font-weight: 500;
+}
+.H{
+  color: #FEA301FF;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn1{
+  height: 50px;
+  width: 197px;
+  border: none;
+  border-radius: 12px;
+  background-color: #FEA301FF;
+  margin-right: 141px;
+  margin-top: 20px;
+}
+.C{
+  color: #FFFFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 60.5px ;
 }
