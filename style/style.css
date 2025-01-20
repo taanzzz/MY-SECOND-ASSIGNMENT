@@ -89,8 +89,10 @@
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
-    right: -40px;
+    top: 80px;
+    right: -30px;
+   background-color: grey;
+
   }
   #menu-toggle:checked + .hamburger-icon + .menu {
     display: flex;
@@ -115,4 +117,79 @@
   .log{
     margin-left: 16px;
   }
+  .menubar{
+    margin-bottom: 100px;
+  }
+}
+
+
+.section2{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+.vision{
+  margin: 120px 50px 122px 141px;
+  
+}
+.hero {
+  margin: 0.5px 127px 0 0;
+}
+.Em{
+  color: #FEA301FF;
+  font-weight: bold;
+  font-size: 56px;
+}
+.stu{
+  color: #000000FF;
+  font-weight: bold;
+  font-size: 56px;
+}
+.to{
+  color: #01ACFDFF;
+  font-weight: bold;
+  font-size: 56px;
+}
+.wi{
+  color: #000000FF;
+  font-weight: 400;
+  font-size: 2opx;
+}
+.enroll{
+  margin-top: 24px;
+}
+.btn2{
+  padding: 10px 47px;
+  border-radius: 12px;
+  background-color: #111111FF;
+  color: #FFFFFFFF ;
+
+}
+@media screen and (max-width: 768px){
+  .section2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero{
+  margin-left: 55px;
+  margin-right: 27px;
+  
+}
+.vision{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+.vision{
+  margin-top: 20px;
+}
 }
