@@ -72,3 +72,47 @@
   font-size: 20px;
   padding: 10px 60.5px ;
 }
+.hamburger-icon{
+  display: none;
+  cursor: pointer;
+}
+.hamburger-icon img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+#menu-toggle{
+  display: none;
+}
+@media screen and (max-width: 768px){
+  .menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: -40px;
+  }
+  #menu-toggle:checked + .hamburger-icon + .menu {
+    display: flex;
+  }
+  .hamburger-icon{
+    display: block;
+  }
+
+  .s{
+    display: none;
+  }
+  .btn1{
+    display: none;
+  }
+  .acontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #FEA301FF;
+    
+  }
+  .log{
+    margin-left: 16px;
+  }
+}
