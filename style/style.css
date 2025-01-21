@@ -277,12 +277,11 @@ background-repeat: no-repeat; */
   align-items: center;
   text-align: center;
   gap: 10px;
-  margin-top: 80px;
-  margin-bottom: 60px;
+  margin: 80px 515px 60px 515px;
 }
 .symbol{  
-  font-weight: bold;
-  font-size: 40px;
+  font-weight: 600;
+  font-size: 37px;
   align-items: center;
   text-align: center;
   height: 60px;
@@ -314,3 +313,114 @@ background-repeat: no-repeat; */
 .one{
 margin-top: 20px;}
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    width: 1160px;
+    height: 630px;
+    margin: 80px 140px 190px 140px;
+}
+
+.single {
+  width: 540px;
+  height: 630.5;
+  margin: 197.5px 18.5px 190px 140px;
+}
+
+.single img {
+  width: 540px;
+  height: 337px;
+
+    border-radius: 16px 16px 0 0 ;
+}
+.text h2{
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 38.35px;
+} 
+.text p{
+  font-weight: 500;
+  font-size: 15.34px;
+  padding: 47.9px 68.9px 34.5px 38.35px ;
+} 
+.text strong{
+  font-weight: 500;
+  font-size: 15.34px;
+  padding: 15px 19px;}
+ .str{ color: #FFFFFFFF;
+  border: 2px solid #3CD8E8FF;
+  border-radius: 47.9px;
+
+  width: 174.5px;
+  height: 47.9;
+  background-color: #3CD8E8FF;
+  position: relative;
+  right: -10px;
+  top: -10px;
+
+
+}
+
+.single .text {
+    margin-top: 35x;
+    font-size: 18px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: left;
+    
+}
+
+.grid-item img {
+    /* width: 100%; */
+    border-radius: 8px;
+    border-radius: 16px 16px 0 0 ;
+}
+
+.grid-item .text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.normal strong{
+  font-weight: 500;
+  font-size: 15.34px;
+  padding: 15px 19px;}
+ .str1{ color: #FFFFFFFF;
+  border: 2px solid #95B226FF;
+  border-radius: 47.9px;
+
+  width: 174.5px;
+  height: 47.9;
+  background-color: #95B226FF;
+  position: relative;
+  right: -10px;
+  top: -10px;
+}
+.normal strong{
+  font-weight: 500;
+  font-size: 15.34px;
+  padding: 15px 19px;}
+ .str2{ color: #FFFFFFFF;
+  border: 2px solid #5D58F0FF;
+  border-radius: 47.9px;
+
+  width: 174.5px;
+  height: 47.9;
+  background-color: #5D58F0FF;
+  position: relative;
+  right: -10px;
+  top: -10px;
+}
+.normal p{
+  font-weight: bold;
+  font-size: 15.34px;
+  padding: 0 54.5px 24.3px 38.35px ;
+} 
