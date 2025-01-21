@@ -305,15 +305,12 @@ background-repeat: no-repeat; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     gap: 12px;
   }
-  .fun{
+.fun{
     display: none;
-  }
-  .one{
-    margin-top: 20px;
-  }
-
-
+}
+.one{
+margin-top: 20px;}
 }
