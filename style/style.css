@@ -5,7 +5,42 @@
   font-weight: <weight>;
   font-style: normal;
 }
+.hide{
+  display: none;
+}
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #DEF5FFFF ; 
+    border: 2px solid black; 
+    padding: 10px;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+}
 
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@media screen and (max-width:576px){
+  .hide{
+    display: block;
+  }
+  
+}
 .acontainer{
   display: flex;
   justify-content: space-between;
@@ -84,14 +119,18 @@
 #menu-toggle{
   display: none;
 }
+.btn1:hover{
+  background-color: #F2E8FFFF;
+}
 @media screen and (max-width: 576px){
   .menu{
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 120px;
     right: -30px;
-   background-color: grey;
+   background-color: #F2E8FFFF;
+   border: 2px solid  #F2E8FFFF;
 
   }
   #menu-toggle:checked + .hamburger-icon + .menu {
@@ -99,6 +138,10 @@
   }
   .hamburger-icon{
     display: block;
+  }
+  .menubar:hover{
+    background-color: #111111;
+    
   }
 
   .s{
@@ -119,7 +162,7 @@
     margin-left: 16px;
   }
   .menubar{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 }
 
@@ -165,7 +208,14 @@
   border-radius: 12px;
   background-color: #111111FF;
   color: #FFFFFFFF ;
-
+}
+.btn2:hover{
+  background-color: #FFFFFFFF;
+  color: #111111;
+}
+.btn:hover{
+color: #111111;
+  
 }
 @media screen and (max-width: 768px){
   .section2{
@@ -318,6 +368,7 @@ margin-top: 20px;}
     background-position: top left bottom right;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 5px;
     background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%), url("/assets/bg.png");
 }
 
@@ -564,6 +615,9 @@ top: 55%;
     top: -15%;
     
    } 
+   .our-stories-container{
+    /* margin-bottom: 5px; */
+   }
   }
 .footer {
     background-color: #00a8ff;
@@ -627,6 +681,9 @@ top: 55%;
     font-size: 1em;
     line-height: 2em;
     display: block;
+  }
+  .footer-link:hover{
+    background-color: #111111;
   }
   
   .section-links .footer-link:hover {
