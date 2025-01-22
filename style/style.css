@@ -244,7 +244,7 @@ color: #111111;
   margin-top: 20px;
 }
 }
-.bg-section{ background-image: url('/assets/bg.png');
+.bg-section{ background-image: url('../assets/bg.png;')
 background-size: cover;
 /* background-position: center;
 background-repeat: no-repeat; */
@@ -369,7 +369,7 @@ margin-top: 20px;}
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 5px;
-    background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%), url("/assets/bg.png");
+    background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%), url("../assets/bg.png");
 }
 
 .our-stories-title{
